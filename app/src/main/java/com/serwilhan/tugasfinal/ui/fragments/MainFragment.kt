@@ -131,7 +131,7 @@ class MainFragment : Fragment(), AlarmViewsOnClickListener {
                                 alarmList.forEach {
                                     if (it.isScheduled) alarmHelper.cancelAlarm(it)
                                 }
-                              
+
                                 viewModel.deleteAllAlarms()
                             }
                         }
