@@ -16,9 +16,9 @@ class Constants {
 
         const val CURRENT_THREAD_ID = "current_thread_id"
 
-        const val ACTION_STOP_SERVICE = "com.example.alarmapp.ACTION_STOP_SERVICE"
-        const val ACTION_START_SERVICE = "com.example.alarmapp.ACTION_START_SERVICE"
-        const val ACTION_ALARM_RECEIVER = "com.example.alarmapp.ACTION_ALARM_RECEIVER"
+        const val ACTION_STOP_SERVICE = "com.serwilhan.tugasfinal.ACTION_STOP_SERVICE"
+        const val ACTION_START_SERVICE = "com.serwilhan.tugasfinal.ACTION_START_SERVICE"
+        const val ACTION_ALARM_RECEIVER = "com.serwilhan.tugasfinal.ACTION_ALARM_RECEIVER"
 
         const val ALARM_ID = "alarm_id"
 

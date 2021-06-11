@@ -6,7 +6,7 @@
 
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.alarmapp.ui.fragments.MainFragment"
+        android:name="com.serwilhan.tugasfinal.ui.fragments.MainFragment"
         android:label="Alarm Home"
         tools:layout="@layout/fragment_main" >
         <action
@@ -15,7 +15,7 @@
     </fragment>
     <fragment
         android:id="@+id/setAlarmFragment"
-        android:name="com.example.alarmapp.ui.fragments.SetAlarmFragment"
+        android:name="com.serwilhan.tugasfinal.ui.fragments.SetAlarmFragment"
         android:label="Add New Alarm"
         tools:layout="@layout/fragment_set_alarm" >
         <action
