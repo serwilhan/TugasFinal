@@ -80,9 +80,8 @@ class SetAlarmFragment : Fragment(), View.OnClickListener {
         alarmHelper.scheduleAlarm(alarmItem)
         viewModel.insertAlarm(alarmItem)
         findNavController().navigate(R.id.action_setAlarmFragment_to_mainFragment)
-
     }
-    
+
     private fun cancelAndClose() =
         findNavController().navigate(R.id.action_setAlarmFragment_to_mainFragment)
 }
