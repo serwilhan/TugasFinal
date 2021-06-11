@@ -18,7 +18,7 @@ object TimePickerUtil {
             hour = timePicker.currentHour
             minute = timePicker.currentMinute
         }
-        
+
         return Pair(hour, minute)
     }
 }
